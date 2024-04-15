@@ -29,7 +29,6 @@
   <main>
     <div>
       <section id="agenda">
-      <div>
         <hr>
         <h2><b><i>Agenda</i></b></h2>
         <ol>
@@ -79,7 +78,7 @@
       <section id="audio">
         <h2><b><i>Audio Recording</i></b></h2>
         <audio controls>
-          <source src="audioNew.m4a" type="audio/mp4">
+          <source src="audio.m4a" type="audio/mp4">
           Something went wrong with the audio element.
         </audio>
       </section>
@@ -99,17 +98,17 @@
           <legend>Form (text and date)</legend>
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" required><br>
-          <label for="date">Date of Birth:</label>
+          <label for="birthdate">Date of Birth:</label>
           <input type="date" id="birthdate" name="birthdate" required><br>
         </fieldset>
         <fieldset>
           <legend>Form (checkbox, radio, datalist, option and select)</legend>
           <label for="gender">Gender:</label><br>
-          <input type="radio" id="male" name="gender" value="male">
+          <input type="radio" id="male" name="gender" value="male"><br>
           <label for="male">Male</label><br>
-          <input type="radio" id="female" name="gender" value="female">
+          <input type="radio" id="female" name="gender" value="female"><br>
           <label for="female">Female</label><br>
-          <input type="radio" id="other" name="gender" value="other">
+          <input type="radio" id="other" name="gender" value="other"><br>
           <label for="other">Other</label><br>
           <label for="color">Favorite Color:</label>
           <input list="colors" id="color" name="color">
@@ -132,7 +131,7 @@
         </fieldset>
         <fieldset>
           <legend>Form (textarea)</legend>
-          <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+          <textarea id="textbox" name="comments" rows="4" cols="50"></textarea><br>
         </fieldset>
         <button type="submit">Submit</button>
       </form>
