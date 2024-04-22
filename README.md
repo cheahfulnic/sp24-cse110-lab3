@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-https://cheahfulnic.github.io/Lab2_Starter/
+# Lab 3
+cheahfulnic.github.io/sp24-cse110-lab3
