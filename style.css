@@ -1,0 +1,33 @@
+/* Example comment for code readability */
+
+:root {
+    --hover-color: grey; /* Define a CSS variable */
+}
+
+#title {
+    color: purple; /* color name */
+}
+
+#meetingdate {
+    color: rgb(0, 102, 104); /* rgb */
+}
+
+#summary {
+    color: #2b93a8; /* hex codes */
+}
+
+#summary:hover {
+    color: var(--hover-color, white); /* fallback color */
+}
+
+#timer {
+    color: hsl(180, 5%, 40%); /* hue, saturation, lightness */
+}
+
+#agenda {
+    background-color: color(prophoto-rgb 0% 50% 100%); /* predefined color space */
+}
+
+#attendance {
+    background-color: color-mix(in srgb, blue 25%, white); /* method to mix colors */
+}
