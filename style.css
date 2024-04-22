@@ -8,8 +8,8 @@
     font-family: Arial, sans-serif;
 }
 
-.jacquard-12-charted-regular {
-    font-family: "Jacquard 12 Charted", system-ui;
+.jersey-10-charted-regular {
+    font-family: "Jersey 10 Charted", sans-serif;
     font-weight: 400;
     font-style: normal;
 }  
@@ -40,7 +40,7 @@ h3 {
 
 #timer {
     color: hsl(252, 5%, 40%); /* hue, saturation, lightness */
-    font-family: "Jacquard 12 Charted", system-ui; /* fallback font */
+    font-family: "Jersey 10 Charted", system-ui; /* fallback font */
 }
 
 #agenda {
