@@ -12,7 +12,7 @@
     font-family: "Jacquard 12 Charted", system-ui;
     font-weight: 400;
     font-style: normal;
-  }  
+}  
 
 h1 {
     color: purple; /* color name */
@@ -32,7 +32,7 @@ h3 {
     &:hover {
       color: var(--hover-color, white); /* fallback color */
     }
-  }
+}
   
 #summary:active {
     font-size: large;
@@ -103,7 +103,7 @@ form {
 @media only screen and (max-width: 600px) {
     #images, #video, #audio, #form {
         width: 100%;
-      }
+    }
 }
 
 legend, label {
@@ -129,4 +129,3 @@ section#audio.block2 + section#video.block2 { /* adjacent siblings + combined se
 select:has(option) {
     text-align: center;
 }
-  
