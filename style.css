@@ -4,6 +4,10 @@
     --hover-color: grey; /* Define a CSS variable */
 }
 
+* {
+    font-family: Arial, sans-serif;
+}
+
 .jacquard-12-charted-regular {
     font-family: "Jacquard 12 Charted", system-ui;
     font-weight: 400;
@@ -25,12 +29,11 @@ h3 {
 
 #summary {
     color: #2b93a8; /* hex codes */
-}
-
-#summary:hover {
-    color: var(--hover-color, white); /* fallback color */
-}
-
+    &:hover {
+      color: var(--hover-color, white); /* fallback color */
+    }
+  }
+  
 #summary:active {
     font-size: large;
 }
@@ -71,7 +74,7 @@ ol {
     margin-bottom: 80px;
 }
 
-p {
+div p {
     margin: auto;
     text-align: justify;
     padding-bottom: 5vh;
@@ -101,6 +104,29 @@ form {
     #images, #video, #audio, #form {
         width: 100%;
       }
-    
+}
+
+legend, label {
+    color: maroon;
+}
+
+[href] {
+    color: plum;
+}
+
+ul > li {
+    list-style-type: square;
+}
+
+h2 ~ p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section#audio.block2 + section#video.block2 { /* adjacent siblings + combined selectors */
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+select:has(option) {
+    text-align: center;
 }
   
