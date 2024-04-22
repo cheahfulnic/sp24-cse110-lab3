@@ -16,6 +16,7 @@ h1 {
     height: 10px;
     width: max-content;
     position: sticky;
+    top: 0;
 }
 
 h3 {
@@ -95,3 +96,11 @@ form {
     grid-template-rows: auto;
     row-gap: 50px;
 }
+
+@media only screen and (max-width: 600px) {
+    #images, #video, #audio, #form {
+        width: 100%;
+      }
+    
+}
+  
