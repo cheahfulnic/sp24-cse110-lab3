@@ -4,6 +4,12 @@
     --hover-color: grey; /* Define a CSS variable */
 }
 
+.jacquard-12-charted-regular {
+    font-family: "Jacquard 12 Charted", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
 h1 {
     color: purple; /* color name */
     text-decoration: solid underline;
@@ -24,8 +30,13 @@ h3 {
     color: var(--hover-color, white); /* fallback color */
 }
 
+#summary:active {
+    font-size: large;
+}
+
 #timer {
     color: hsl(252, 5%, 40%); /* hue, saturation, lightness */
+    font-family: "Jacquard 12 Charted", system-ui; /* fallback font */
 }
 
 #agenda {
@@ -69,4 +80,18 @@ form {
     max-width: 100%;
     min-width: min-content;
     position: static;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    row-gap: 50px;
 }
